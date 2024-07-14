@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-zecpvrj^0hkkpj#qh#_=iljnzv96+u3s!qp6^i+v!ad5-_(#+l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['54.196.52.95', 'registration-form-roulette.s3-website-us-east-1.amazonaws.com']
 
 
 # Application definition
@@ -55,7 +55,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "http://registration-form-roulette.s3-website-us-east-1.amazonaws.com"
+    "http://registration-form-roulette.s3-website-us-east-1.amazonaws.com",
 ]
 
 ROOT_URLCONF = 'roulettech.urls'
