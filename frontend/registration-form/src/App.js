@@ -8,7 +8,7 @@ function App() {
   const [users, setUsers] = useState([]);
 
   const fetchUsers = async () => {
-    const response = await fetch('http://localhost:8000/api/users/', {
+    const response = await fetch('http://54.88.212.112:8000/api/users/', {
       headers: {
         'Accept': 'application/json',
       },
