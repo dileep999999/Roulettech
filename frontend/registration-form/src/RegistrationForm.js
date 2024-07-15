@@ -11,7 +11,7 @@ const RegistrationForm = ({ onUserAdded }) => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const response = await fetch('http://54.88.212.112:8000/api/register/', {
+    const response = await fetch('http://44.208.64.187:8000/api/register/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
